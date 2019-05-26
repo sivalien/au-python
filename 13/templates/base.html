@@ -1,0 +1,28 @@
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Мой первый сайт — глупый, но такой милый!</title>
+<style>
+    html {
+      background-color:rgb(197, 253, 244);
+    }
+    body {
+      background-image: url(tyan4.png);
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      color: rgb(5, 112, 89);
+      font-size: 1.8em;
+      text-align: center;
+    }
+</style>
+</head>
+<body>
+  <p>
+      Oh, sempai, don't look it! This is my first site, it's so silly and so kawaii...
+  </p>
+
+    {% block content %}
+    -- This should not be rendered --
+    {% endblock %}  
+</body>
+</html>
